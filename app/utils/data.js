@@ -190,12 +190,45 @@ const skills = [
 
 const projects = [
   // {
-  //   title: "Project 1",
-  //   subtitle: "Subtitle 1",
-  //   description: "Description 1",
-  //   image: "/path/to/image1.jpg",
-  //   link: "https://example.com",
+  //   title: "Personal Portfolio Website",
+  //   subtitle: "Next.js, Tailwind CSS",
+  //   description:
+  //     "A personal portfolio website to showcase my projects and skills, built with Next.js and styled using Tailwind CSS for a modern and responsive design.",
+  //   image: "/projects/portfolio.png",
+  //   link: "https://github.com/sinanliu001/react-portfolio",
   // },
+  {
+    title: "Rental Application System",
+    subtitle: "Angular, TypeScript, CSS, HTML",
+    description:
+      "A rental application system built with Angular, featuring a modern UI and seamless user experience.",
+    image: "/rental-application.png",
+    link: "https://github.com/sinanliu001/rent-application",
+  },
+  {
+    title: "Movie List Application",
+    subtitle: "React, Redux, Node.js, Bootstrap",
+    description:
+      "A movie list application built with React, Redux, and Node.js, allowing users to browse and manage their favorite movies.",
+    image: "/movie-list.png",
+    link: "https://github.com/sinanliu001/USC-batch",
+  },
+  {
+    title: "Patients Dashboard",
+    subtitle: "Next.js, Tailwind CSS, Chart.js",
+    description:
+      "A patients dashboard application built with Next.js and styled using Tailwind CSS, featuring interactive charts and a modern UI.",
+    image: "/patients-dashboard.png",
+    link: "https://github.com/sinanliu001/health-care-patients-dashboard",
+  },
+  // {
+  //   title: "Element APK",
+  //   subtitle: "Java, Android",
+  //   description:
+  //     "An Android application developed in Java, providing users with a seamless experience for managing their tasks and activities on the go.",
+  //   image: "/element-apk.png",
+  //   link: "https://github.com/sinanliu001/element-apk",
+  // }
 ];
 
 export { userName, userEmail, skills, projects };
