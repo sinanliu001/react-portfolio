@@ -6,8 +6,8 @@ const nextConfig: NextConfig = {
   /* config options here */
   output: "export",
   distDir: "dist",
-  basePath: isProd ? 'https://sinanliu001.github.io' : '',
-  assetPrefix: isProd ? 'https://sinanliu001.github.io' : '',
+  basePath: isProd ? 'https://sinanliu001.github.io/react-portfolio/' : '',
+  assetPrefix: isProd ? 'https://sinanliu001.github.io/react-portfolio/' : '',
   images: {
     unoptimized: true,
   },
