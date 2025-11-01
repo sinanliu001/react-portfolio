@@ -3,6 +3,10 @@ import Image from "next/image";
 import { projects } from "../utils/data";
 
 export default function Projects() {
+	const prefix = process.env.NEXT_PUBLIC_BASE_PATH || '';
+	// github pages need prefix '/react-portfolio'
+	// todo set environment variable for base path
+
 	return (
 		<section id="projects" className="bg-gray-800 text-white py-20">
 			<div className="max-w-4xl mx-auto">
@@ -12,7 +16,7 @@ export default function Projects() {
 					{projects.map((project, index) => (
 						<div key={index} className="bg-gray-700 rounded-lg p-6">
 							<Image
-								src={project.image}
+								src={`${prefix}${project.image}`}
 								alt={project.title}
 								className="rounded-md mb-4 overflow-auto"
 								width={500}
