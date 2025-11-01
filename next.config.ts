@@ -3,9 +3,12 @@
 // // const isProd = process.env.NODE_ENV === "production";
 // // todo: change basePath when deploying to production
 /** @type {import('next').NextConfig} */
+
+const isProd = process.env.NODE_ENV === 'production';
+
 const nextConfig = {
   /* config options here */
-  basePath: "/react-portfolio",
+  basePath: "",
   output: "export",
   reactStrictMode: true,
 };
