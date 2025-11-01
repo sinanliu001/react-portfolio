@@ -8,7 +8,7 @@ const isProd = process.env.NODE_ENV === 'production';
 
 const nextConfig = {
   /* config options here */
-  basePath: "",
+  basePath: isProd ? "/react-portfolio" : "",
   output: "export",
   reactStrictMode: true,
 };
