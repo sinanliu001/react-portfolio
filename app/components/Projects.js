@@ -17,6 +17,7 @@ export default function Projects() {
 								className="rounded-md mb-4 overflow-auto"
 								width={500}
 								height={300}
+								unoptimized
 							/>
 							<h3 className="text-xl font-bold mb-2">{project.title}</h3>
 							<p className="text-gray-400 mb-4">{project.subtitle}</p>
