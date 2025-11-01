@@ -13,7 +13,8 @@ export default function Projects() {
 					{projects.map((project, index) => (
 						<div key={index} className="bg-gray-700 rounded-lg p-6">
 							<Image
-								src={project.image}
+								src={`/react-portfolio/${project.image}`}
+								// todo: change back to project.image after testing
 								alt={project.title}
 								className="rounded-md mb-4 overflow-auto"
 								width={500}
